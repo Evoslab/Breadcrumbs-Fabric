@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "buzzier_bees:honey_bread"
+    }
+  },
+  "result": {
+    "item": "breadcrumbs:honey_bread_block",
+    "count": 1
+  },
+	"conditions": [
+		{
+		"type": "forge:mod_loaded",
+		"modid": "buzzier_bees"
+		}
+	]
+}

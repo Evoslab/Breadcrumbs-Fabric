@@ -1,38 +1,42 @@
-
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "skinnedlanterns",
+  "version": "1.16.4-1.0.0",
 
-  "name": "Fabric Example Mod",
-  "description": "Draylar's Fabric Example Mod!",
+  "name": "Breadcrumbs",
+  "description": "Adds more Lanterns to the game! Thanks TechnoVision for the Modding Tutorial, Inspired by Skinned Carts",
   "authors": [
-    "Draylar"
+    "Evo",
+    "Nuxthefox",
+    "EltrutLikes",
+    "AvocadoSpud",
+    "StevePlayzz"
   ],
   "contact": {
-    "homepage": "https://github.com/Draylar",
-    "sources": "https://github.com/Draylar/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/breadcrumbs-fabric",
+    "sources": "https://github.com/evoslab/Breadcrumbs-Fabric"
   },
 
-  "license": "GPLv3",
-  "icon": "assets/modid/icon.png",
+  "license": "ARR",
+  "icon": "assets/breadcrumbs/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.github.draylar.modid.ExampleMod"
+      "com.github.evoslab.breadcrumbs.Breadcrumbs"
     ],
     "client": [
-      "com.github.draylar.modid.ExampleModClient"
+      "com.github.evoslab.breadcrumbs.BreadcrumbsClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "breadcrumbs.mixins.json"
   ],
 
-  "requires": {
-    "fabricloader": ">=0.4.0",
-    "fabric": "*"
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.17.x"
   },
   "suggests": {
     "flamingo": "*"
