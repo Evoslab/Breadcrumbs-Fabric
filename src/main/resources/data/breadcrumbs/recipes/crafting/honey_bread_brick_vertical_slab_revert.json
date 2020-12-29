@@ -8,15 +8,5 @@
   "result": {
     "item": "breadcrumbs:honey_bread_brick_slab",
     "count": 1
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "buzzier_bees"
-    },
-    {
-      "type": "abnormals_core:quark_flag",
-      "flag": "vertical_slabs"
-    }
-  ]
+  }
 }

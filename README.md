@@ -1,4 +1,5 @@
-# Breadcrumbs is a mod that adds bread building blocks
+# Breadcrumbs
+is a mod that adds bread building blocks
 
 ### Feature list:
 - bread block (and stairs/slabs)

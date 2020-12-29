@@ -11,11 +11,5 @@
   "result": {
     "item": "breadcrumbs:honey_bread_brick_slab",
     "count": 6
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "buzzier_bees"
-    }
-  ]
+  }
 }
