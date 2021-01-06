@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.github.Evoslab.breadcrumbs.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ServerWorldMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

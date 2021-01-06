@@ -1,16 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "skinnedlanterns",
+  "id": "breadcrumbs",
   "version": "1.16.4-1.0.0",
 
   "name": "Breadcrumbs",
   "description": "Adds more Lanterns to the game! Thanks TechnoVision for the Modding Tutorial, Inspired by Skinned Carts",
   "authors": [
-    "Evo",
-    "Nuxthefox",
-    "EltrutLikes",
-    "AvocadoSpud",
-    "StevePlayzz"
+    "Evoslab"
   ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/breadcrumbs-fabric",
