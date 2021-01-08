@@ -36,7 +36,7 @@ public class BreadcrumbsItems {
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_bricks"), HONEY_BREAD_BRICKS_ITEM);
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_brick_slab"), HONEY_BREAD_BRICK_SLAB_ITEM);
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_brick_stairs"), HONEY_BREAD_BRICK_STAIRS_ITEM);
-        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_bricks"), HONEY_BREAD_BRICKS_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_brick_wall"), HONEY_BREAD_BRICK_WALL_ITEM);
 
     }
 

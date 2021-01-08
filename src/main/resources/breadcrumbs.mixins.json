@@ -3,7 +3,6 @@
   "package": "com.github.Evoslab.breadcrumbs.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "ServerWorldMixin"
   ],
   "client": [
   ],
