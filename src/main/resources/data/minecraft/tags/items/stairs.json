@@ -1,0 +1,8 @@
+{
+	"replace": "false",
+	"values": [
+		"breadcrumbs:bread_brick_stairs",
+		"breadcrumbs:honey_bread_brick_stairs",
+		"breadcrumbs:pumpkin_bread_brick_stairs"
+	]
+}
