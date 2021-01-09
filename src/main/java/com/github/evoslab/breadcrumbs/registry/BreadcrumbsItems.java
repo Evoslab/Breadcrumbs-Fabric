@@ -13,6 +13,7 @@ public class BreadcrumbsItems {
 
     public static final Item BREAD_BLOCK_ITEM = new BlockItem(BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
     public static final Item HONEY_BREAD_BLOCK_ITEM = new BlockItem(HONEY_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Item PUMPKIN_BREAD_BLOCK_ITEM = new BlockItem(PUMPKIN_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
     public static final Item BREAD_BRICKS_ITEM = new BlockItem(BREAD_BRICKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item BREAD_BRICK_SLAB_ITEM = new BlockItem(BREAD_BRICK_SLAB, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
@@ -24,9 +25,15 @@ public class BreadcrumbsItems {
     public static final Item HONEY_BREAD_BRICK_STAIRS_ITEM = new BlockItem(HONEY_BREAD_BRICK_STAIRS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item HONEY_BREAD_BRICK_WALL_ITEM = new BlockItem(HONEY_BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
 
+    public static final Item PUMPKIN_BREAD_BRICKS_ITEM = new BlockItem(PUMPKIN_BREAD_BRICKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item PUMPKIN_BREAD_BRICK_SLAB_ITEM = new BlockItem(PUMPKIN_BREAD_BRICK_SLAB, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item PUMPKIN_BREAD_BRICK_STAIRS_ITEM = new BlockItem(PUMPKIN_BREAD_BRICK_STAIRS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item PUMPKIN_BREAD_BRICK_WALL_ITEM = new BlockItem(PUMPKIN_BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+
     public static void RegisterBreadcrumbsItems() {
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "bread_block"), BREAD_BLOCK_ITEM);
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_block"), HONEY_BREAD_BLOCK_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_block"), PUMPKIN_BREAD_BLOCK_ITEM);
 
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "bread_bricks"), BREAD_BRICKS_ITEM);
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "bread_brick_slab"), BREAD_BRICK_SLAB_ITEM);
@@ -38,6 +45,10 @@ public class BreadcrumbsItems {
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_brick_stairs"), HONEY_BREAD_BRICK_STAIRS_ITEM);
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "honey_bread_brick_wall"), HONEY_BREAD_BRICK_WALL_ITEM);
 
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_bricks"), PUMPKIN_BREAD_BRICKS_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_brick_slab"), PUMPKIN_BREAD_BRICK_SLAB_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_brick_stairs"), PUMPKIN_BREAD_BRICK_STAIRS_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_brick_wall"), PUMPKIN_BREAD_BRICK_WALL_ITEM);
     }
 
 }
