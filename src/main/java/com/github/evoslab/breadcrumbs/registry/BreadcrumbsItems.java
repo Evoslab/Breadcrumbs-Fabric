@@ -18,17 +18,17 @@ public class BreadcrumbsItems {
     public static final Item BREAD_BRICKS_ITEM = new BlockItem(BREAD_BRICKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item BREAD_BRICK_SLAB_ITEM = new BlockItem(BREAD_BRICK_SLAB, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item BREAD_BRICK_STAIRS_ITEM = new BlockItem(BREAD_BRICK_STAIRS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
-    public static final Item BREAD_BRICK_WALL_ITEM = new BlockItem(BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item BREAD_BRICK_WALL_ITEM = new BlockItem(BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.DECORATIONS).maxCount(64));
 
     public static final Item HONEY_BREAD_BRICKS_ITEM = new BlockItem(HONEY_BREAD_BRICKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item HONEY_BREAD_BRICK_SLAB_ITEM = new BlockItem(HONEY_BREAD_BRICK_SLAB, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item HONEY_BREAD_BRICK_STAIRS_ITEM = new BlockItem(HONEY_BREAD_BRICK_STAIRS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
-    public static final Item HONEY_BREAD_BRICK_WALL_ITEM = new BlockItem(HONEY_BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item HONEY_BREAD_BRICK_WALL_ITEM = new BlockItem(HONEY_BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.DECORATIONS).maxCount(64));
 
     public static final Item PUMPKIN_BREAD_BRICKS_ITEM = new BlockItem(PUMPKIN_BREAD_BRICKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item PUMPKIN_BREAD_BRICK_SLAB_ITEM = new BlockItem(PUMPKIN_BREAD_BRICK_SLAB, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
     public static final Item PUMPKIN_BREAD_BRICK_STAIRS_ITEM = new BlockItem(PUMPKIN_BREAD_BRICK_STAIRS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
-    public static final Item PUMPKIN_BREAD_BRICK_WALL_ITEM = new BlockItem(PUMPKIN_BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item PUMPKIN_BREAD_BRICK_WALL_ITEM = new BlockItem(PUMPKIN_BREAD_BRICK_WALL, new Item.Settings().group(ItemGroup.DECORATIONS).maxCount(64));
 
     public static void RegisterBreadcrumbsItems() {
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "bread_block"), BREAD_BLOCK_ITEM);
