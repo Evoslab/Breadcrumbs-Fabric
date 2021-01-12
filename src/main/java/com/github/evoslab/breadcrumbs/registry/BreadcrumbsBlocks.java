@@ -16,6 +16,10 @@ public class BreadcrumbsBlocks {
     public static final Block HONEY_BREAD_BLOCK = new Block(Properties.BREAD);
     public static final Block PUMPKIN_BREAD_BLOCK = new Block(Properties.BREAD);
 
+    public static final Block PUMPKIN_POLISHED_BREAD_BLOCK = new Block(Properties.BREAD_BRICKS);
+    public static final Block HONEY_POLISHED_BREAD_BLOCK = new Block(Properties.BREAD_BRICKS);
+    public static final Block POLISHED_BREAD_BLOCK = new Block(Properties.BREAD_BRICKS);
+
     //Bread Bricks
     public static final Block BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
     public static final SlabBlock BREAD_BRICK_SLAB = new SlabBlock(Properties.BREAD_BRICKS);
@@ -25,7 +29,6 @@ public class BreadcrumbsBlocks {
     public static final Block BREAD_PAVEMENT = new Block(Properties.BREAD_BRICKS);
     public static final PillarBlock BREAD_PILLAR = new PillarBlock(Properties.BREAD_BRICKS);
     public static final Block CHISELED_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
-    public static final Block POLISHED_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
 
     //Honey Bread Bricks
     public static final Block HONEY_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
@@ -35,8 +38,7 @@ public class BreadcrumbsBlocks {
 
     public static final Block HONEY_BREAD_PAVEMENT = new Block(Properties.BREAD_BRICKS);
     public static final PillarBlock HONEY_BREAD_PILLAR = new PillarBlock(Properties.BREAD_BRICKS);
-    public static final Block HONEY_CHISELED_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
-    public static final Block HONEY_POLISHED_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
+    public static final Block CHISELED_HONEY_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
 
     //Pumpkin Bread Bricks
     public static final Block PUMPKIN_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
@@ -46,8 +48,7 @@ public class BreadcrumbsBlocks {
 
     public static final Block PUMPKIN_BREAD_PAVEMENT = new Block(Properties.BREAD_BRICKS);
     public static final PillarBlock PUMPKIN_BREAD_PILLAR = new PillarBlock(Properties.BREAD_BRICKS);
-    public static final Block PUMPKIN_CHISELED_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
-    public static final Block PUMPKIN_POLISHED_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
+    public static final Block CHISELED_PUMPKIN_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
 
     public static void RegisterBreadcrumbsBlocks() {
 
@@ -55,6 +56,10 @@ public class BreadcrumbsBlocks {
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_block"), BREAD_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "honey_bread_block"), HONEY_BREAD_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_block"), PUMPKIN_BREAD_BLOCK);
+
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_bread_block"), POLISHED_BREAD_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_honey_bread_block"), HONEY_POLISHED_BREAD_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_pumpkin_bread_block"), PUMPKIN_POLISHED_BREAD_BLOCK);
 
         //Bread Bricks
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_bricks"), BREAD_BRICKS);
@@ -65,7 +70,6 @@ public class BreadcrumbsBlocks {
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_pavement"), BREAD_PAVEMENT);
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_pillar"), BREAD_PILLAR);
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "chiseled_bread_bricks"), CHISELED_BREAD_BRICKS);
-        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_bread_bricks"), POLISHED_BREAD_BRICKS);
 
         //Honey Bread Bricks
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "honey_bread_bricks"), HONEY_BREAD_BRICKS);
@@ -75,8 +79,7 @@ public class BreadcrumbsBlocks {
 
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "honey_bread_pavement"), HONEY_BREAD_PAVEMENT);
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "honey_bread_pillar"), HONEY_BREAD_PILLAR);
-        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "honey_chiseled_bread_bricks"), HONEY_CHISELED_BREAD_BRICKS);
-        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "honey_bread_bricks"), HONEY_POLISHED_BREAD_BRICKS);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "chiseled_honey_bread_bricks"), CHISELED_HONEY_BREAD_BRICKS);
 
         //Pumpkin Bread Bricks
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_bricks"), PUMPKIN_BREAD_BRICKS);
@@ -86,8 +89,7 @@ public class BreadcrumbsBlocks {
 
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_pavement"), PUMPKIN_BREAD_PAVEMENT);
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_pillar"), PUMPKIN_BREAD_PILLAR);
-        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "pumpkin_chiseled_bread_bricks"), PUMPKIN_CHISELED_BREAD_BRICKS);
-        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_bricks"), PUMPKIN_POLISHED_BREAD_BRICKS);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "chiseled_pumpkin_bread_bricks"), CHISELED_PUMPKIN_BREAD_BRICKS);
 
     }
 

@@ -1,23 +1,40 @@
 {
+
   "block.breadcrumbs.bread_block": "Bread Block",
   "block.breadcrumbs.honey_bread_block": "Honey Bread Block",
   "block.breadcrumbs.pumpkin_bread_block": "Pumpkin Bread Block",
+
+  "block.breadcrumbs.polished_bread_block": "Polished Bread Block",
+  "block.breadcrumbs.polished_honey_bread_block": "Polished Honey Bread Block",
+  "block.breadcrumbs.polished_pumpkin_bread_block": "Polished Pumpkin Bread Block",
 
   "block.breadcrumbs.bread_bricks": "Bread Bricks",
   "block.breadcrumbs.bread_brick_slab": "Bread Brick Slab",
   "block.breadcrumbs.bread_brick_stairs": "Bread Brick Stairs",
   "block.breadcrumbs.bread_brick_wall": "Bread Brick Wall",
   "block.breadcrumbs.bread_brick_vertical_slab": "Bread Brick Vertical Slab",
-  
+
+  "block.breadcrumbs.bread_pavement": "Bread Pavement",
+  "block.breadcrumbs.bread_pillar": "Bread Pillar",
+  "block.breadcrumbs.chiseled_bread_bricks": "Chiseled Bread Bricks",
+
   "block.breadcrumbs.honey_bread_bricks": "Honey Bread Bricks",
   "block.breadcrumbs.honey_bread_brick_slab": "Honey Bread Brick Slab",
   "block.breadcrumbs.honey_bread_brick_stairs": "Honey Bread Brick Stairs",
   "block.breadcrumbs.honey_bread_brick_wall": "Honey Bread Brick Wall",
   "block.breadcrumbs.honey_bread_brick_vertical_slab": "Honey Bread Brick Vertical Slab",
 
+  "block.breadcrumbs.honey_bread_pavement": "Honey Bread Pavement",
+  "block.breadcrumbs.honey_bread_pillar": "Honey Bread Pillar",
+  "block.breadcrumbs.chiseled_honey_bread_bricks": "Chiseled Honey Bread Bricks",
+
   "block.breadcrumbs.pumpkin_bread_bricks": "Pumpkin Bread Bricks",
   "block.breadcrumbs.pumpkin_bread_brick_slab": "Pumpkin Bread Brick Slab",
   "block.breadcrumbs.pumpkin_bread_brick_stairs": "Pumpkin Bread Brick Stairs",
   "block.breadcrumbs.pumpkin_bread_brick_wall": "Pumpkin Bread Brick Wall",
-  "block.breadcrumbs.pumpkin_bread_brick_vertical_slab": "Pumpkin Bread Brick Vertical Slab"
+  "block.breadcrumbs.pumpkin_bread_brick_vertical_slab": "Pumpkin Bread Brick Vertical Slab",
+
+  "block.breadcrumbs.pumpkin_bread_pavement": "Pumpkin Bread Pavement",
+  "block.breadcrumbs.pumpkin_bread_pillar": "Pumpkin Bread Pillar",
+  "block.breadcrumbs.chiseled_pumpkin_bread_bricks": "Chiseled Pumpkin Bread Bricks"
 }
