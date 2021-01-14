@@ -3,19 +3,16 @@
   "block.breadcrumbs.bread_slab": "Bread Slab",
   "block.breadcrumbs.bread_stairs": "Bread Stairs",
   "block.breadcrumbs.bread_wall": "Bread Wall",
-  "block.breadcrumbs.bread_vertical_slab": "Bread Vertical Slab",
 
   "block.breadcrumbs.polished_bread_block": "Polished Bread Block",
   "block.breadcrumbs.polished_bread_slab": "Polished Bread Slab",
   "block.breadcrumbs.polished_bread_stairs": "Polished Bread Stairs",
   "block.breadcrumbs.polished_bread_wall": "Polished Bread Wall",
-  "block.breadcrumbs.polished_bread_vertical_slab": "Polished Bread Vertical Slab",
 
   "block.breadcrumbs.bread_bricks": "Bread Bricks",
   "block.breadcrumbs.bread_brick_slab": "Bread Brick Slab",
   "block.breadcrumbs.bread_brick_stairs": "Bread Brick Stairs",
   "block.breadcrumbs.bread_brick_wall": "Bread Brick Wall",
-  "block.breadcrumbs.bread_brick_vertical_slab": "Bread Brick Vertical Slab",
 
   "block.breadcrumbs.bread_pavement": "Bread Pavement",
   "block.breadcrumbs.bread_pillar": "Bread Pillar",
@@ -31,7 +28,6 @@
   "block.breadcrumbs.polished_honey_bread_slab": "Polished Honey Bread Slab",
   "block.breadcrumbs.polished_honey_bread_stairs": "Polished Honey Bread Stairs",
   "block.breadcrumbs.polished_honey_bread_wall": "Polished Honey Bread Wall",
-  "block.breadcrumbs.polished_honey_bread_vertical_slab": "Polished Honey Bread Vertical Slab",
 
   "block.breadcrumbs.honey_bread_bricks": "Honey Bread Bricks",
   "block.breadcrumbs.honey_bread_brick_slab": "Honey Bread Brick Slab",
@@ -43,11 +39,15 @@
   "block.breadcrumbs.honey_bread_pillar": "Honey Bread Pillar",
   "block.breadcrumbs.chiseled_honey_bread_bricks": "Chiseled Honey Bread Bricks",
 
+  "block.breadcrumbs.pumpkin_bread_block": "Pumpkin Bread Block",
+  "block.breadcrumbs.pumpkin_bread_slab": "Pumpkin Bread Slab",
+  "block.breadcrumbs.pumpkin_bread_stairs": "Pumpkin Bread Stairs",
+  "block.breadcrumbs.pumpkin_bread_wall": "Pumpkin Bread Wall",
+
   "block.breadcrumbs.polished_pumpkin_bread_block": "Polished Pumpkin Bread Block",
   "block.breadcrumbs.polished_pumpkin_bread_slab": "Polished Pumpkin Bread Slab",
   "block.breadcrumbs.polished_pumpkin_bread_stairs": "Polished Pumpkin Bread Stairs",
   "block.breadcrumbs.polished_pumpkin_bread_wall": "Polished Pumpkin Bread Wall",
-  "block.breadcrumbs.polished_pumpkin_bread_vertical_slab": "Polished Pumpkin Bread Vertical Slab",
 
   "block.breadcrumbs.pumpkin_bread_bricks": "Pumpkin Bread Bricks",
   "block.breadcrumbs.pumpkin_bread_brick_slab": "Pumpkin Bread Brick Slab",
