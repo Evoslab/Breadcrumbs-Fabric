@@ -17,8 +17,8 @@ public class BreadcrumbsItems {
     public static final Item PUMPKIN_BREAD_BLOCK_ITEM = new BlockItem(PUMPKIN_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
 
     public static final Item POLISHED_BREAD_BLOCK_ITEM = new BlockItem(POLISHED_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
-    public static final Item HONEY_POLISHED_BREAD_BLOCK_ITEM = new BlockItem(HONEY_POLISHED_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
-    public static final Item PUMPKIN_POLISHED_BREAD_BLOCK_ITEM = new BlockItem(PUMPKIN_POLISHED_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item POLISHED_HONEY_BREAD_BLOCK_ITEM = new BlockItem(POLISHED_HONEY_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
+    public static final Item POLISHED_PUMPKIN_BREAD_BLOCK_ITEM = new BlockItem(POLISHED_PUMPKIN_BREAD_BLOCK, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
 
     //Bread Bricks
     public static final Item BREAD_BRICKS_ITEM = new BlockItem(BREAD_BRICKS, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS).maxCount(64));
@@ -58,8 +58,8 @@ public class BreadcrumbsItems {
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_block"), PUMPKIN_BREAD_BLOCK_ITEM);
 
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "polished_bread_block"), POLISHED_BREAD_BLOCK_ITEM);
-        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "polished_honey_bread_block"), HONEY_POLISHED_BREAD_BLOCK_ITEM);
-        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "polished_pumpkin_bread_block"), PUMPKIN_POLISHED_BREAD_BLOCK_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "polished_honey_bread_block"), POLISHED_HONEY_BREAD_BLOCK_ITEM);
+        Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "polished_pumpkin_bread_block"), POLISHED_PUMPKIN_BREAD_BLOCK_ITEM);
 
         //Bread Bricks
         Registry.register(Registry.ITEM, new Identifier(Breadcrumbs.MODID, "bread_bricks"), BREAD_BRICKS_ITEM);
