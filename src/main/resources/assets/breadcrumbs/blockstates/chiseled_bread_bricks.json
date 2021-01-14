@@ -1,7 +1,5 @@
 {
-  "variants": {
-    "": {
-      "model": "breadcrumbs:block/chiseled_bread_bricks"
-    }
-  }
+	"variants": {
+		"": { "model": "breadcrumbs:block/chiseled_bread_bricks" }
+	}
 }

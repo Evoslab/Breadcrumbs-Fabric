@@ -1,8 +1,14 @@
 {
 	"replace": "false",
 	"values": [
+		"breadcrumbs:bread_wall",
+		"breadcrumbs:polished_bread_wall",
 		"breadcrumbs:bread_brick_wall",
+		"breadcrumbs:honey_bread_wall",
+		"breadcrumbs:polished_honey_bread_wall",
 		"breadcrumbs:honey_bread_brick_wall",
+		"breadcrumbs:pumpkin_bread_wall",
+		"breadcrumbs:polished_pumpkin_bread_wall",
 		"breadcrumbs:pumpkin_bread_brick_wall"
 	]
 }

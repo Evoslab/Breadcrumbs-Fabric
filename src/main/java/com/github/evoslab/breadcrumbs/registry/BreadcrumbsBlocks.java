@@ -13,53 +13,87 @@ public class BreadcrumbsBlocks {
 
     //Bread Blocks
     public static final Block BREAD_BLOCK = new Block(Properties.BREAD);
-    public static final Block HONEY_BREAD_BLOCK = new Block(Properties.BREAD);
-    public static final Block PUMPKIN_BREAD_BLOCK = new Block(Properties.BREAD);
+    public static final SlabBlock BREAD_BLOCK_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock BREAD_BLOCK_STAIRS = new BreadcrumbsStairsBlock(BREAD_BLOCK.getDefaultState(), Properties.BREAD);
+    public static final WallBlock BREAD_BLOCK_WALL = new WallBlock(Properties.BREAD);
 
-    public static final Block PUMPKIN_POLISHED_BREAD_BLOCK = new Block(Properties.BREAD_BRICKS);
-    public static final Block HONEY_POLISHED_BREAD_BLOCK = new Block(Properties.BREAD_BRICKS);
-    public static final Block POLISHED_BREAD_BLOCK = new Block(Properties.BREAD_BRICKS);
+    //Polished Bread Blocks
+    public static final Block POLISHED_BREAD_BLOCK = new Block(Properties.BREAD);
+    public static final SlabBlock POLISHED_BREAD_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock POLISHED_BREAD_STAIRS = new BreadcrumbsStairsBlock(POLISHED_BREAD_BLOCK.getDefaultState(), Properties.BREAD);
+    public static final WallBlock POLISHED_BREAD_WALL = new WallBlock(Properties.BREAD);
 
     //Bread Bricks
-    public static final Block BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
-    public static final SlabBlock BREAD_BRICK_SLAB = new SlabBlock(Properties.BREAD_BRICKS);
-    public static final BreadcrumbsStairsBlock BREAD_BRICK_STAIRS = new BreadcrumbsStairsBlock(BREAD_BRICKS.getDefaultState(), Properties.BREAD_BRICKS);
-    public static final WallBlock BREAD_BRICK_WALL = new WallBlock(Properties.BREAD_BRICKS);
+    public static final Block BREAD_BRICKS = new Block(Properties.BREAD);
+    public static final SlabBlock BREAD_BRICK_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock BREAD_BRICK_STAIRS = new BreadcrumbsStairsBlock(BREAD_BRICKS.getDefaultState(), Properties.BREAD);
+    public static final WallBlock BREAD_BRICK_WALL = new WallBlock(Properties.BREAD);
 
-    public static final Block BREAD_PAVEMENT = new Block(Properties.BREAD_BRICKS);
-    public static final PillarBlock BREAD_PILLAR = new PillarBlock(Properties.BREAD_BRICKS);
-    public static final Block CHISELED_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
+    //Bread Stonecutted Blocks
+    public static final Block BREAD_PAVEMENT = new Block(Properties.BREAD);
+    public static final PillarBlock BREAD_PILLAR = new PillarBlock(Properties.BREAD);
+    public static final Block CHISELED_BREAD_BRICKS = new Block(Properties.BREAD);
+
+    //Honey Bread Blocks
+    public static final Block HONEY_BREAD_BLOCK = new Block(Properties.BREAD);
+    public static final SlabBlock HONEY_BREAD_BLOCK_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock HONEY_BREAD_BLOCK_STAIRS = new BreadcrumbsStairsBlock(HONEY_BREAD_BLOCK.getDefaultState(), Properties.BREAD);
+    public static final WallBlock HONEY_BREAD_BLOCK_WALL = new WallBlock(Properties.BREAD);
+
+    //Polished Honey Bread Blocks
+    public static final Block POLISHED_HONEY_BREAD_BLOCK = new Block(Properties.BREAD);
+    public static final SlabBlock POLISHED_HONEY_BREAD_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock POLISHED_HONEY_BREAD_STAIRS = new BreadcrumbsStairsBlock(POLISHED_HONEY_BREAD_BLOCK.getDefaultState(), Properties.BREAD);
+    public static final WallBlock POLISHED_HONEY_BREAD_WALL = new WallBlock(Properties.BREAD);
 
     //Honey Bread Bricks
-    public static final Block HONEY_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
-    public static final SlabBlock HONEY_BREAD_BRICK_SLAB = new SlabBlock(Properties.BREAD_BRICKS);
-    public static final BreadcrumbsStairsBlock HONEY_BREAD_BRICK_STAIRS = new BreadcrumbsStairsBlock(BREAD_BRICKS.getDefaultState(), Properties.BREAD_BRICKS);
-    public static final WallBlock HONEY_BREAD_BRICK_WALL = new WallBlock(Properties.BREAD_BRICKS);
+    public static final Block HONEY_BREAD_BRICKS = new Block(Properties.BREAD);
+    public static final SlabBlock HONEY_BREAD_BRICK_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock HONEY_BREAD_BRICK_STAIRS = new BreadcrumbsStairsBlock(HONEY_BREAD_BRICKS.getDefaultState(), Properties.BREAD);
+    public static final WallBlock HONEY_BREAD_BRICK_WALL = new WallBlock(Properties.BREAD);
 
-    public static final Block HONEY_BREAD_PAVEMENT = new Block(Properties.BREAD_BRICKS);
-    public static final PillarBlock HONEY_BREAD_PILLAR = new PillarBlock(Properties.BREAD_BRICKS);
-    public static final Block CHISELED_HONEY_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
+    //Honey Bread Stonecutted Blocks
+    public static final Block HONEY_BREAD_PAVEMENT = new Block(Properties.BREAD);
+    public static final PillarBlock HONEY_BREAD_PILLAR = new PillarBlock(Properties.BREAD);
+    public static final Block CHISELED_HONEY_BREAD_BRICKS = new Block(Properties.BREAD);
+
+    //Pumpkin Bread Blocks
+    public static final Block PUMPKIN_BREAD_BLOCK = new Block(Properties.BREAD);
+    public static final SlabBlock PUMPKIN_BREAD_BLOCK_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock PUMPKIN_BREAD_BLOCK_STAIRS = new BreadcrumbsStairsBlock(PUMPKIN_BREAD_BLOCK.getDefaultState(), Properties.BREAD);
+    public static final WallBlock PUMPKIN_BREAD_BLOCK_WALL = new WallBlock(Properties.BREAD);
+
+    //Polished Pumpkin Bread Block
+    public static final Block POLISHED_PUMPKIN_BREAD_BLOCK = new Block(Properties.BREAD);
+    public static final SlabBlock POLISHED_PUMPKIN_BREAD_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock POLISHED_PUMPKIN_BREAD_STAIRS = new BreadcrumbsStairsBlock(POLISHED_PUMPKIN_BREAD_BLOCK.getDefaultState(), Properties.BREAD);
+    public static final WallBlock POLISHED_PUMPKIN_BREAD_WALL = new WallBlock(Properties.BREAD);
 
     //Pumpkin Bread Bricks
-    public static final Block PUMPKIN_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
-    public static final SlabBlock PUMPKIN_BREAD_BRICK_SLAB = new SlabBlock(Properties.BREAD_BRICKS);
-    public static final BreadcrumbsStairsBlock PUMPKIN_BREAD_BRICK_STAIRS = new BreadcrumbsStairsBlock(BREAD_BRICKS.getDefaultState(), Properties.BREAD_BRICKS);
-    public static final WallBlock PUMPKIN_BREAD_BRICK_WALL = new WallBlock(Properties.BREAD_BRICKS);
+    public static final Block PUMPKIN_BREAD_BRICKS = new Block(Properties.BREAD);
+    public static final SlabBlock PUMPKIN_BREAD_BRICK_SLAB = new SlabBlock(Properties.BREAD);
+    public static final BreadcrumbsStairsBlock PUMPKIN_BREAD_BRICK_STAIRS = new BreadcrumbsStairsBlock(PUMPKIN_BREAD_BRICKS.getDefaultState(), Properties.BREAD);
+    public static final WallBlock PUMPKIN_BREAD_BRICK_WALL = new WallBlock(Properties.BREAD);
 
-    public static final Block PUMPKIN_BREAD_PAVEMENT = new Block(Properties.BREAD_BRICKS);
-    public static final PillarBlock PUMPKIN_BREAD_PILLAR = new PillarBlock(Properties.BREAD_BRICKS);
-    public static final Block CHISELED_PUMPKIN_BREAD_BRICKS = new Block(Properties.BREAD_BRICKS);
+    //Pumpkin Bread Stonecutted Blocks
+    public static final Block PUMPKIN_BREAD_PAVEMENT = new Block(Properties.BREAD);
+    public static final PillarBlock PUMPKIN_BREAD_PILLAR = new PillarBlock(Properties.BREAD);
+    public static final Block CHISELED_PUMPKIN_BREAD_BRICKS = new Block(Properties.BREAD);
 
     public static void RegisterBreadcrumbsBlocks() {
 
         //Bread Blocks
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_block"), BREAD_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_block_slab"), BREAD_BLOCK_SLAB);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_block_stairs"), BREAD_BLOCK_STAIRS);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_block_wall"), BREAD_BLOCK_WALL);
+
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "honey_bread_block"), HONEY_BREAD_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "pumpkin_bread_block"), PUMPKIN_BREAD_BLOCK);
 
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_bread_block"), POLISHED_BREAD_BLOCK);
-        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_honey_bread_block"), HONEY_POLISHED_BREAD_BLOCK);
-        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_pumpkin_bread_block"), PUMPKIN_POLISHED_BREAD_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_honey_bread_block"), POLISHED_HONEY_BREAD_BLOCK);
+        Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "polished_pumpkin_bread_block"), POLISHED_PUMPKIN_BREAD_BLOCK);
 
         //Bread Bricks
         Registry.register(Registry.BLOCK, new Identifier(Breadcrumbs.MODID, "bread_bricks"), BREAD_BRICKS);
@@ -94,19 +128,11 @@ public class BreadcrumbsBlocks {
     }
 
     public static class Properties {
-        public static final FabricBlockSettings BREAD = FabricBlockSettings.of(Material.WOOD)
+        public static final FabricBlockSettings BREAD = FabricBlockSettings.of(Material.WOOL)
                 .hardness(1.0f)
                 .resistance(1.0f)
-                .sounds(BlockSoundGroup.WOOD)
+                .sounds(BlockSoundGroup.WOOL)
                 .breakByTool(FabricToolTags.HOES)
                 .breakByHand(true);
-
-        public static final FabricBlockSettings BREAD_BRICKS = FabricBlockSettings.of(Material.STONE)
-                .hardness(1.0f)
-                .resistance(1.0f)
-                .sounds(BlockSoundGroup.STONE)
-                .breakByTool(FabricToolTags.PICKAXES)
-                .breakByHand(true);
-
     }
 }

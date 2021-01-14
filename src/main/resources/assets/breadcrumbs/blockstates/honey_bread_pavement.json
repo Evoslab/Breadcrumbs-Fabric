@@ -1,7 +1,5 @@
 {
-  "variants": {
-    "": {
-      "model": "breadcrumbs:block/honey_bread_pavement"
-    }
-  }
+	"variants": {
+		"": { "model": "breadcrumbs:block/honey_bread_pavement" }
+	}
 }
