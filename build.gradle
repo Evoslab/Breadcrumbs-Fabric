@@ -17,6 +17,9 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
+	// ARRP is a fabric api for creating resources and assets during runtime
+	//modImplementation group: 'net.devtech', name: 'arrp', version: '0.3.2'
+
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
 }
@@ -69,7 +72,8 @@ publishing {
 
 	// select the repositories you want to publish to
 	repositories {
-		// uncomment to publish to the local maven
-		// mavenLocal()
+		maven {
+			//url = 'https://raw.githubusercontent.com/Devan-Kerman/Devan-Repo/master/'
+		}
 	}
 }

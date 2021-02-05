@@ -14,7 +14,7 @@
     "issues": "https://github.com/Evoslab/Breadcrumbs-Fabric/issues"
   },
 
-  "license": "ARR",
+  "license": "MIT",
   "icon": "assets/breadcrumbs/icon.png",
 
   "environment": "*",
