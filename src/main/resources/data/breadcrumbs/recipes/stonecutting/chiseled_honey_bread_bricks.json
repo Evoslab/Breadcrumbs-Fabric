@@ -6,15 +6,16 @@
 	},
 	{
 	  "item": "breadcrumbs:polished_honey_bread_block"
-	},
-	{
-	  "item": "breadcrumbs:honey_bread_bricks"
 	}
   ],
-  "result": "breadcrumbs:honey_bread_brick_stairs",
+  "result": "breadcrumbs:chiseled_honey_bread_bricks",
   "count": 1,
   "conditions": [
     {
+      "type": "abnormals_core:quark_flag",
+      "flag": "stone_chiseled"
+    },
+	{
       "type": "forge:mod_loaded",
       "modid": "buzzier_bees"
     }

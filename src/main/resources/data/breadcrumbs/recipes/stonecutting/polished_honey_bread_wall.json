@@ -3,14 +3,21 @@
   "ingredient": [
 	{
 	  "item": "breadcrumbs:honey_bread_block"
+	},
+	{
+	  "item": "breadcrumbs:polished_honey_bread_block"
 	}
   ],
-  "result": "breadcrumbs:honey_bread_slab",
-  "count": 2,
+  "result": "breadcrumbs:polished_honey_bread_wall",
+  "count": 1,
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "buzzier_bees"
-    }
+    },
+	{
+	  "type": "forge:mod_loaded",
+	  "modid": "lepton"
+	}
   ]
 }

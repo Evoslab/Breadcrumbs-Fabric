@@ -3,14 +3,21 @@
   "ingredient": [
 	{
 	  "item": "breadcrumbs:honey_bread_block"
+	},
+	{
+	  "item": "breadcrumbs:polished_honey_bread_block"
 	}
   ],
-  "result": "breadcrumbs:honey_bread_slab",
-  "count": 2,
+  "result": "breadcrumbs:honey_bread_pillar",
+  "count": 1,
   "conditions": [
     {
+      "type": "abnormals_core:quark_flag",
+      "flag": "stone_pillar"
+    },
+	{
       "type": "forge:mod_loaded",
       "modid": "buzzier_bees"
     }
   ]
-}
+} 

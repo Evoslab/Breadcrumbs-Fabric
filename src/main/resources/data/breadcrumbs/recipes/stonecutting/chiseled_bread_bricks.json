@@ -1,8 +1,19 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "breadcrumbs:bread_block"
-  },
+  "ingredient": [
+	{
+	  "item": "breadcrumbs:bread_block"
+	},
+	{
+	  "item": "breadcrumbs:polished_bread_block"
+	}
+  ],
   "result": "breadcrumbs:chiseled_bread_bricks",
-  "count": 1
+  "count": 1,
+  "conditions": [
+    {
+      "type": "abnormals_core:quark_flag",
+      "flag": "stone_chiseled"
+    }
+  ]
 }

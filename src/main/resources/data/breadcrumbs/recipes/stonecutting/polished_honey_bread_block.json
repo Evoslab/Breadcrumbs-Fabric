@@ -1,12 +1,10 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": [
-	{
-	  "item": "breadcrumbs:honey_bread_block"
-	}
-  ],
-  "result": "breadcrumbs:honey_bread_slab",
-  "count": 2,
+  "ingredient": {
+    "item": "breadcrumbs:honey_bread_block"
+  },
+  "result": "breadcrumbs:polished_honey_bread_block",
+  "count": 1,
   "conditions": [
     {
       "type": "forge:mod_loaded",

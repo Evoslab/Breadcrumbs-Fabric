@@ -6,13 +6,10 @@
 	},
 	{
 	  "item": "breadcrumbs:polished_pumpkin_bread_block"
-	},
-	{
-	  "item": "breadcrumbs:pumpkin_bread_bricks"
 	}
   ],
-  "result": "breadcrumbs:pumpkin_bread_brick_slab",
-  "count": 2,
+  "result": "breadcrumbs:polished_pumpkin_bread_stairs",
+  "count": 1,
   "conditions": [
     {
       "type": "forge:mod_loaded",

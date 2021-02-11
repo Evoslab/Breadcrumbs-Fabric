@@ -3,9 +3,12 @@
   "ingredient": [
 	{
 	  "item": "breadcrumbs:honey_bread_block"
+	},
+	{
+	  "item": "breadcrumbs:polished_honey_bread_block"
 	}
   ],
-  "result": "breadcrumbs:honey_bread_slab",
+  "result": "breadcrumbs:polished_honey_bread_slab",
   "count": 2,
   "conditions": [
     {

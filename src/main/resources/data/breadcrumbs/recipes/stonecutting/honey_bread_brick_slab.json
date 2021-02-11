@@ -5,9 +5,18 @@
 	  "item": "breadcrumbs:honey_bread_block"
 	},
 	{
+	  "item": "breadcrumbs:polished_honey_bread_block"
+	},
+	{
 	  "item": "breadcrumbs:honey_bread_bricks"
 	}
   ],
   "result": "breadcrumbs:honey_bread_brick_slab",
-  "count": 2
+  "count": 2,
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "buzzier_bees"
+    }
+  ]
 }

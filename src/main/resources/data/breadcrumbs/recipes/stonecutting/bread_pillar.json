@@ -8,12 +8,12 @@
 	  "item": "breadcrumbs:polished_bread_block"
 	}
   ],
-  "result": "breadcrumbs:bread_pavement",
+  "result": "breadcrumbs:bread_pillar",
   "count": 1,
   "conditions": [
     {
       "type": "abnormals_core:quark_flag",
-      "flag": "stone_pavement"
+      "flag": "stone_pillar"
     }
   ]
 } 

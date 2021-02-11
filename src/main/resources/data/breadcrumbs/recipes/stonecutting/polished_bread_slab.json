@@ -6,11 +6,8 @@
 	},
 	{
 	  "item": "breadcrumbs:polished_bread_block"
-	},
-	{
-	  "item": "breadcrumbs:bread_bricks"
 	}
   ],
-  "result": "breadcrumbs:bread_brick_stairs",
-  "count": 1
+  "result": "breadcrumbs:polished_bread_slab",
+  "count": 2
 }

@@ -6,17 +6,18 @@
 	},
 	{
 	  "item": "breadcrumbs:polished_pumpkin_bread_block"
-	},
-	{
-	  "item": "breadcrumbs:pumpkin_bread_bricks"
 	}
   ],
-  "result": "breadcrumbs:pumpkin_bread_brick_slab",
-  "count": 2,
+  "result": "breadcrumbs:pumpkin_bread_pillar",
+  "count": 1,
   "conditions": [
     {
+      "type": "abnormals_core:quark_flag",
+      "flag": "stone_pillar"
+    },
+	{
       "type": "forge:mod_loaded",
       "modid": "autumnity"
     }
   ]
-}
+} 
