@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "breadcrumbs:honey_bread_column_from_stonecutting"
+        ]
+    },
+    "criteria": {
+        "has_breadcrumbs:honey_bread_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "breadcrumbs:honey_bread_block"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "breadcrumbs:honey_bread_column_from_stonecutting"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_breadcrumbs:honey_bread_block",
+            "has_the_recipe"
+        ]
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "columns:block/column_inventory",
+    "textures": {
+        "all": "breadcrumbs:block/pumpkin_bread_block"
+    }
+}

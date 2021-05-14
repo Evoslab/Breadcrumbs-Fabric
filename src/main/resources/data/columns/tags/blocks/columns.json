@@ -1,0 +1,23 @@
+{
+    "values": [],
+    "libcd": {
+        "entries": [
+            {
+                "when": {
+                    "libcd:mod_loaded": "columns"
+                },
+                "values": [
+                    "breadcrumbs:bread_brick_column",
+                    "breadcrumbs:bread_column",
+                    "breadcrumbs:honey_bread_brick_column",
+                    "breadcrumbs:honey_bread_column",
+                    "breadcrumbs:polished_bread_column",
+                    "breadcrumbs:polished_honey_bread_column",
+                    "breadcrumbs:polished_pumpkin_bread_column",
+                    "breadcrumbs:pumpkin_bread_brick_column",
+                    "breadcrumbs:pumpkin_bread_column"
+                ]
+            }
+        ]
+    }
+}

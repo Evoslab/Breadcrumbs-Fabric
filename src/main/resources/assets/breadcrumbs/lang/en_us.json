@@ -3,16 +3,19 @@
   "block.breadcrumbs.bread_slab": "Bread Slab",
   "block.breadcrumbs.bread_stairs": "Bread Stairs",
   "block.breadcrumbs.bread_wall": "Bread Wall",
+  "block.breadcrumbs.bread_column": "Bread Column",
 
   "block.breadcrumbs.polished_bread_block": "Polished Bread Block",
   "block.breadcrumbs.polished_bread_slab": "Polished Bread Slab",
   "block.breadcrumbs.polished_bread_stairs": "Polished Bread Stairs",
   "block.breadcrumbs.polished_bread_wall": "Polished Bread Wall",
+  "block.breadcrumbs.polished_bread_column": "Polished Bread Column",
 
   "block.breadcrumbs.bread_bricks": "Bread Bricks",
   "block.breadcrumbs.bread_brick_slab": "Bread Brick Slab",
   "block.breadcrumbs.bread_brick_stairs": "Bread Brick Stairs",
   "block.breadcrumbs.bread_brick_wall": "Bread Brick Wall",
+  "block.breadcrumbs.bread_brick_column": "Bread Brick Column",
 
   "block.breadcrumbs.bread_pavement": "Bread Pavement",
   "block.breadcrumbs.bread_pillar": "Bread Pillar",
@@ -22,16 +25,19 @@
   "block.breadcrumbs.honey_bread_slab": "Honey Bread Slab",
   "block.breadcrumbs.honey_bread_stairs": "Honey Bread Stairs",
   "block.breadcrumbs.honey_bread_wall": "Honey Bread Wall",
+  "block.breadcrumbs.honey_bread_column": "Honey Bread Column",
 
   "block.breadcrumbs.polished_honey_bread_block": "Polished Honey Bread Block",
   "block.breadcrumbs.polished_honey_bread_slab": "Polished Honey Bread Slab",
   "block.breadcrumbs.polished_honey_bread_stairs": "Polished Honey Bread Stairs",
   "block.breadcrumbs.polished_honey_bread_wall": "Polished Honey Bread Wall",
+  "block.breadcrumbs.polished_honey_bread_column": "Polished Honey Bread Column",
 
   "block.breadcrumbs.honey_bread_bricks": "Honey Bread Bricks",
   "block.breadcrumbs.honey_bread_brick_slab": "Honey Bread Brick Slab",
   "block.breadcrumbs.honey_bread_brick_stairs": "Honey Bread Brick Stairs",
   "block.breadcrumbs.honey_bread_brick_wall": "Honey Bread Brick Wall",
+  "block.breadcrumbs.honey_bread_brick_column": "Honey Bread Brick Column",
 
   "block.breadcrumbs.honey_bread_pavement": "Honey Bread Pavement",
   "block.breadcrumbs.honey_bread_pillar": "Honey Bread Pillar",
@@ -41,16 +47,19 @@
   "block.breadcrumbs.pumpkin_bread_slab": "Pumpkin Bread Slab",
   "block.breadcrumbs.pumpkin_bread_stairs": "Pumpkin Bread Stairs",
   "block.breadcrumbs.pumpkin_bread_wall": "Pumpkin Bread Wall",
+  "block.breadcrumbs.pumpkin_bread_column": "Pumpkin Bread Column",
 
   "block.breadcrumbs.polished_pumpkin_bread_block": "Polished Pumpkin Bread Block",
   "block.breadcrumbs.polished_pumpkin_bread_slab": "Polished Pumpkin Bread Slab",
   "block.breadcrumbs.polished_pumpkin_bread_stairs": "Polished Pumpkin Bread Stairs",
   "block.breadcrumbs.polished_pumpkin_bread_wall": "Polished Pumpkin Bread Wall",
+  "block.breadcrumbs.polished_pumpkin_bread_column": "Polished Pumpkin Bread Column",
 
   "block.breadcrumbs.pumpkin_bread_bricks": "Pumpkin Bread Bricks",
   "block.breadcrumbs.pumpkin_bread_brick_slab": "Pumpkin Bread Brick Slab",
   "block.breadcrumbs.pumpkin_bread_brick_stairs": "Pumpkin Bread Brick Stairs",
   "block.breadcrumbs.pumpkin_bread_brick_wall": "Pumpkin Bread Brick Wall",
+  "block.breadcrumbs.pumpkin_bread_brick_column": "Pumpkin Bread Brick Column",
 
   "block.breadcrumbs.pumpkin_bread_pavement": "Pumpkin Bread Pavement",
   "block.breadcrumbs.pumpkin_bread_pillar": "Pumpkin Bread Pillar",

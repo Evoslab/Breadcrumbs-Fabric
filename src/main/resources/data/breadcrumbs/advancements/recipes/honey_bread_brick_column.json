@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "rewards": {
+        "recipes": [
+            "breadcrumbs:honey_bread_brick_column"
+        ]
+    },
+    "criteria": {
+        "has_honey_bread_bricks": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "breadcrumbs:honey_bread_bricks"
+                    }
+                ]
+            }
+        },
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "breadcrumbs:honey_bread_brick_column"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_honey_bread_bricks",
+            "has_the_recipe"
+        ]
+    ]
+}

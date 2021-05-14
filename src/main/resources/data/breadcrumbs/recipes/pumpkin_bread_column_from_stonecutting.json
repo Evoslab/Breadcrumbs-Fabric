@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "breadcrumbs:pumpkin_bread_block"
+    },
+    "result": "breadcrumbs:pumpkin_bread_column",
+    "count": 1
+}
