@@ -10,7 +10,8 @@
                     "breadcrumbs:bread_brick_column",
                     "breadcrumbs:bread_column",
                     "breadcrumbs:honey_bread_column",
-                    "breadcrumbs:polished_bread_column"
+                    "breadcrumbs:polished_bread_column",
+                    "breadcrumbs:polished_honey_bread_column"
                 ]
             }
         ]
