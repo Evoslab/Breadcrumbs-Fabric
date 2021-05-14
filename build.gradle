@@ -3,6 +3,17 @@ plugins {
 	id 'maven-publish'
 }
 
+repositories {
+	maven {
+		name = "Cotton"
+		url = "https://server.bbkr.space/artifactory/libs-release"
+	}
+	maven {
+		name = "Curse"
+		url = "https://www.cursemaven.com"
+	}
+}
+
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
@@ -16,6 +27,13 @@ dependencies {
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+
+	// LibCD
+	modImplementation "io.github.cottonmc:LibCD:${project.libcd_version}"
+	include "io.github.cottonmc:LibCD:${project.libcd_version}"
+
+	// Columns
+	modImplementation "curse.maven:columns-385230:3107117"
 
 	// ARRP is a fabric api for creating resources and assets during runtime
 	//modImplementation group: 'net.devtech', name: 'arrp', version: '0.3.2'
