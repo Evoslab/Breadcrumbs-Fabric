@@ -15,6 +15,7 @@ public class BreadcrumbsColumnBlocks {
     
     public static void RegisterBreadcrumbsColumnBlocks() {
         RegisterBreadcrumbsColumnBlocks("bread_column", BreadcrumbsBlocks.BREAD_BLOCK);
+        RegisterBreadcrumbsColumnBlocks("polished_bread_column", BreadcrumbsBlocks.POLISHED_BREAD_BLOCK);
     }
 
     private static void RegisterBreadcrumbsColumnBlocks(String path, Block base) {

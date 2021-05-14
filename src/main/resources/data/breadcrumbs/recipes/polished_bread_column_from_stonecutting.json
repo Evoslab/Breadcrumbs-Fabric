@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "breadcrumbs:polished_bread_block"
+    },
+    "result": "breadcrumbs:polished_bread_column",
+    "count": 1
+}
