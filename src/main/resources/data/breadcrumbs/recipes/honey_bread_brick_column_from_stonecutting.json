@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:stonecutting",
+    "ingredient": {
+        "item": "breadcrumbs:honey_bread_bricks"
+    },
+    "result": "breadcrumbs:honey_bread_brick_column",
+    "count": 1
+}

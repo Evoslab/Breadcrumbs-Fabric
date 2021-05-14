@@ -20,6 +20,7 @@ public class BreadcrumbsColumnBlocks {
 
         RegisterBreadcrumbsColumnBlocks("honey_bread_column", BreadcrumbsBlocks.HONEY_BREAD_BLOCK);
         RegisterBreadcrumbsColumnBlocks("polished_honey_bread_column", BreadcrumbsBlocks.POLISHED_HONEY_BREAD_BLOCK);
+        RegisterBreadcrumbsColumnBlocks("honey_bread_brick_column", BreadcrumbsBlocks.HONEY_BREAD_BRICKS);
     }
 
     private static void RegisterBreadcrumbsColumnBlocks(String path, Block base) {
