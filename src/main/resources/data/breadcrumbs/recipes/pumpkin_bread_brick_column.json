@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ppp",
+        " p ",
+        "ppp"
+    ],
+    "key": {
+        "p": {
+            "item": "breadcrumbs:pumpkin_bread_bricks"
+        }
+    },
+    "result": {
+        "item": "breadcrumbs:pumpkin_bread_brick_column",
+        "count": 6
+    }
+}
